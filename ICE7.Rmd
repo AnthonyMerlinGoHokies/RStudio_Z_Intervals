@@ -1,0 +1,79 @@
+---
+output: pdf_document
+geometry: margin=1.5cm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ICE \#7: Z-Intervals
+
+Show your work and do not forget to interpret your confidence intervals for credit.
+
+
+*Reminder: In-Class Exercises are graded as Complete or Incomplete. To receive a complete grade, you MUST ANSWER EVERY QUESTION to the best of your ability. For instance, if you do not answer ONE QUESTION, you will receive an incomplete on this assignment. The purpose of this grading scale is to ensure you are attempting every problem and working to learn the material.*
+
+
+
+## Problem \# 1: 
+Many cardiac patients wear an implanted pacemaker to control their heartrate. A plastic connector module mounts on the top of the pacemaker. A random sample of 75 modules has an average depth of 0.310 inches.
+
+### PART A: 
+Assuming the population standard deviation of 0.0015 inches and an approximately normal distribution, find and **interpret** the 95\% confidence interval for the mean of the depth of all the connector modules made by a certain manufacturing company. 
+
+```{r}
+# CODE
+```
+
+
+$~$ \newline \newline \newline
+
+### PART B: 
+Assuming the population standard deviation of 0.0015 inches and an approximately normal distribution, find and **interpret** the 99% confidence interval for the mean of the depth of all the connector modules made by a certain manufacturing company. 
+
+```{r}
+# CODE 
+```
+
+
+$~$ \newline \newline \newline
+
+
+### PART C: 
+Now, let's say we have **random sample of 31 modules** (with same sample mean).Assuming the population standard deviation of 0.0015 inches and an approximately normal distribution, find and **interpret** the 95% confidence interval for the mean of the depth of all the connector modules made by a certain manufacturing company. 
+
+```{r}
+# CODE
+```
+
+$~$ \newline \newline \newline
+
+
+### PART D: Compare the confidence intervals from PART A and PART B. How does the interval differ when we increase (or decrease) the sample size or $\alpha$-level?
+
+
+$~$ \newline\newline \newline \newline \newline \newline
+
+
+## Problem \#2:
+
+We want to estimate the difference between the mean starting salaries for recent graduates with
+mechanical engineering and electric engineering degrees from the University of Michigan. We were given a
+random sample of 59 starting salaries for mechanical engineers with a sample mean of \$48,736 and a population standard deviation of \$4,430. We were given a random sample of 31 starting salaries for electric engineers with a sample mean of \$53,208 and a population standard deviation of \$4,286. Find a 95\% confidence interval for $\mu_{\text{Mechanical}} - \mu_{\text{Electric}}$.
+
+### PART A: What interval should we use and why? 
+
+$~$ \newline \newline \newline
+
+
+### PART B: Construct a 95\% confidence interval.
+
+```{r}
+# CODE
+```
+
+
+### PART C: Interpret your 95\% confidence interval.
+
+
